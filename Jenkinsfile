@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         APP_NAME = 'new-app'
-        REPO_URL = "https://github.com/MohamedMagdy840/jenkins-repo.git"
+        REPO_URL = "https://github.com/AbdelrahmanElhelw/Jenkins-wtih-image-on-hub.git"
     }
 
     stages {
