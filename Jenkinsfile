@@ -50,7 +50,7 @@ pipeline {
             steps {
                 script {
                     sh """
-                        docker run -p 3000:5000 --name "${APP_NAME}"-"main"-${BUILD_NUMBER} -d ${APP_NAME}:${BUILD_NUMBER}
+                        docker run -p 4000:5000 --name "${APP_NAME}"-"main"-${BUILD_NUMBER} -d ${APP_NAME}:${BUILD_NUMBER}
                         docker ps
                     """
                 }
