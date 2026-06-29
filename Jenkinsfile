@@ -9,7 +9,7 @@ pipeline {
     stages {
          stage('test_trigger') {
             steps {
-                echo "hello triger works"
+                echo "hello triger works  :) "
             }
         }
         stage('Getting Repo files') {
