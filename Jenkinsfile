@@ -7,6 +7,11 @@ pipeline {
     }
 
     stages {
+         stage('test_trigger') {
+            steps {
+                echo "hello triger works"
+            }
+        }
         stage('Getting Repo files') {
             steps {
                 git branch: "main", credentialsId: 'github', url: "${REPO_URL}"
